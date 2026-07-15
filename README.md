@@ -24,7 +24,7 @@
 **Windows 用户（推荐）:**
 ```bash
 # 1. 克隆项目
-git clone https://github.com/FutureUnreal/What-to-eat-today.git
+git clone https://github.com/lf3249138/What-to-eat-today-pro.git
 cd What-to-eat-today
 
 # 2. 双击运行或命令行启动
@@ -34,7 +34,7 @@ start.bat
 **Linux/macOS 用户:**
 ```bash
 # 1. 克隆项目
-git clone https://github.com/FutureUnreal/What-to-eat-today.git
+git clone https://github.com/lf3249138/What-to-eat-today-pro.git
 cd What-to-eat-today
 
 # 2. 给脚本执行权限并启动
@@ -94,7 +94,7 @@ docker-compose down -v
 - Framer Motion (动画)
 
 **后端:**
-- Python 3.11 + Flask
+- Python 3.11 + FastAPI
 - Neo4j (图数据库)
 - Milvus (向量数据库)
 - 图RAG + 混合检索
@@ -108,7 +108,7 @@ docker-compose down -v
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Nginx (80)    │────│  Frontend(3000) │────│  Backend(8000)  │
-│   反向代理        │    │   Next.js应用    │    │   Flask API     │
+│   反向代理        │    │   Next.js应用    │    │   FastAPI     │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                                                         │
                        ┌─────────────────┐    ┌─────────────────┐
@@ -182,7 +182,7 @@ npm run dev
 
 ### 🛠️ 技术栈
 - **Next.js** - React 全栈框架
-- **Flask** - Python Web 框架
+- **FastAPI** - Python Web 框架
 - **Neo4j** - 图数据库
 - **Milvus** - 向量数据库
 - **Docker** - 容器化部署
@@ -211,4 +211,4 @@ npm run dev
 
 ---
 
-Copyright (c) 2025 FutureUnreal. All rights reserved.
+Copyright (c) 2026 FutureUnreal. All rights reserved.
